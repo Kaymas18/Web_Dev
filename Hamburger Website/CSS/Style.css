@@ -142,10 +142,17 @@
     padding: 0px 65px;
 }
 
+.sectiontag {
+    padding: 16px 0px;
+}
+
 .sectionsubtag {
     font-family: 'Times New Roman', Times, serif;
 }
 
 .thumbnail img {
     width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
 }
