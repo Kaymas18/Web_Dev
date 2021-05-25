@@ -159,4 +159,40 @@
 
 .contact {
     background-color: #ccddff;
+    height: 133px;
+}
+
+.text-center {
+    text-align: center;
+    padding: 30px;
+}
+
+.form {
+    max-width: 500px;
+    margin: 42px auto;
+    background-color: #ccddff;
+}
+
+.form input {
+    margin: 14px 0;
+    width: 100%;
+    padding: 5px 3px;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+
+.btn1 {
+    padding: 8px 10px;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: unset;
+    justify-content: center;
+    cursor: pointer;
+    vertical-align: middle;
 }
