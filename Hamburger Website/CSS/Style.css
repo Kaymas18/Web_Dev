@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -41,6 +43,8 @@
 .nav-list li a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .nav-list li a:hover {
@@ -103,11 +107,13 @@
 }
 
 .text-big {
-    font-size: 41px;
+    font-size: 40px;
+    font-family: 'Odibee Sans';
 }
 
 .text-small {
-    font-size: 18px;
+    font-size: 22px;
+    font-family: Zilla Slab;
 }
 
 .btn {
@@ -118,11 +124,14 @@
     background: none;
     color: white;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .btn-sm {
     padding: 6px 10px;
     vertical-align: middle;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .section {
@@ -132,7 +141,7 @@
     justify-content: center;
     max-width: 80%;
     margin: auto;
-    font-family: Noto Sans KR;
+    font-family: Odibee Sans;
 }
 
 .section-left {
@@ -148,7 +157,8 @@
 }
 
 .sectionsubtag {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Odibee Sans;
+    font-size: 25px;
 }
 
 .thumbnail img {
@@ -159,42 +169,47 @@
 }
 
 .contact {
-    background-color: #ccddff;
+    background-color: white;
     height: 133px;
 }
 
 .text-center {
     text-align: center;
-    padding: 30px;
+    padding-top: 10px;
+    font-family: cursive;
+    font-size: 35px;
 }
 
 .form {
-    max-width: 500px;
-    margin: 42px auto;
-    background-color: #ccddff;
+    max-width: 1200px;
+    margin: 25px auto;
+    font-family: cursive;
 }
 
-.form input {
-    margin: 14px 0;
+.form-input {
+    margin: 6px 0;
     width: 100%;
     padding: 5px 3px;
     font-size: 19px;
     border: 2px solid grey;
     border-radius: 6px;
+    font-family: cursive;
 }
 
 .btn1 {
-    padding: 8px 10px;
-    height: auto;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 8px;
-    background: white;
     color: black;
-    display: flex;
-    align-items: unset;
-    justify-content: center;
+    border: 2px solid black;
     cursor: pointer;
-    vertical-align: middle;
-    background-color: transparent;
+    width: 100px;
+    border-radius: 81px;
+    font-style: inherit;
+    height: 30px;
+}
+
+.text-footer {
+    text-align: center;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
 }
