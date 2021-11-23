@@ -6,19 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <script src="js/resp.js"></script>
     <title>EduCate</title>
 </head>
 
 <body>
-    <nav class="navbar background h-nav">
-        <ul class="nav-list v-class">
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
             <div class="logo"><img src="Images/Education.jpg" alt="logo"></div>
             <li> <a href="#home">Home</a></li>
             <li> <a href="#services">Services</a></li>
             <li> <a href="#about">About</a></li>
             <li> <a href="#contact">Contact us</a></li>
         </ul>
-        <div class="rightNav v-class">
+        <div class="rightNav v-class-resp">
             <input type="text" name="search" id="search">
             <button class="btn btn-sm ">Search</button>
         </div>
@@ -44,7 +46,7 @@
         </div>
     </section>
     <hr>
-    <section class="section">
+    <section class="section" id="about">
         <div class="paras">
             <p class="sectiontag text-big">Transforming education in India</p>
             <p class="sectionsubtag text-small">Education in India is primarily provided by public schools (controlled and funded by the government at three levels: central, state and local) and private schools. Under various articles of the Indian Constitution, free and compulsory education
@@ -55,7 +57,7 @@
         </div>
     </section>
     <hr>
-    <section class="section section-left">
+    <section class="section section-left" id="services">
         <div class="paras">
             <p class="sectiontag text-big">The end of illiteracy is here</p>
             <p class="sectionsubtag text-small">In January 2019, India had over 900 universities and 40,000 colleges.In India's higher education system, a significant number of seats are reserved under affirmative action policies for the historically disadvantaged Scheduled Castes and Scheduled
@@ -77,7 +79,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2 class="text-center">Contact Us</h2>
         <div class="form">
             <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
@@ -93,6 +95,7 @@
             Copyright &copy; 2025 - All rights reserved
         </p>
     </footer>
+    <script src="js/resp.js"></script>
 </body>
 
 </html>
