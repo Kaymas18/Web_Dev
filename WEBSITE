@@ -2,42 +2,42 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>Samyak Personal Site</title>
+    <meta charset="utf-8">
+    <title>Samyak Personal Site</title>
 </head>
 
 <body>
-  <img src="images/Photo Samyak1.jpg" alt="An image of Samyak Jain">
-  <h1>Samyak Jain</h1>
-  <!--<br>-->
-  <h3>Here are some links below to follow me or to connect with me </h3>
-  <a href="Contact_Me.html">Contact Details</a>
-  <em>
+    <img src="images/Photo Samyak2.jpg" alt="An image of Samyak Jain">
+    <h1>Samyak Jain</h1>
+    <!--<br>-->
+    <h3>Here are some links below to follow me or to connect with me </h3>
+    <a href="Contact_Me.html">Contact Details</a>
+    <em>
     <strong>
       <p>Student at ABESEC</p>
     </strong>
   </em>
-  <p>Hello people out there. Thanks for visiting my website. I am Samyak Jain, a 2nd year engineering student at ABESEC, AKTU. I have just started to learn wed dev.</p>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Vivekanad School (2004-2019)</li>
+    <p>Hello people out there. Thanks for visiting my website. I am Samyak Jain, a 2nd year engineering student at ABESEC, AKTU. I have just started to learn wed dev.</p>
+    <hr>
+    <h3>Education</h3>
+    <ul>
+        <li>Vivekanad School (2004-2019)</li>
+        <ol>
+            <li>HSC : 10 CGPA</li>
+            <li>SSC : 76%</li>
+        </ol>
+        <li>ABESEC, AKTU (2019-2023)</li>
+        <ol>
+            <li>Grade : 8.3 CGPA</li>
+        </ol>
+    </ul>
+    <h3>Hobbies</h3>
     <ol>
-      <li>HSC : 10 CGPA</li>
-      <li>SSC : 76%</li>
+        <li>Reading</li>
+        <li>Writing</li>
+        <li>Cricket</li>
+        <li>Freelancing</li>
     </ol>
-    <li>ABESEC, AKTU (2019-2023)</li>
-    <ol>
-      <li>Grade : 8.3 CGPA</li>
-    </ol>
-  </ul>
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Reading</li>
-    <li>Writing</li>
-    <li>Cricket</li>
-    <li>Freelancing</li>
-  </ol>
 </body>
 
 </html>
